@@ -1,0 +1,811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0238B6AA6873A56CEFD7379A /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433230E8AAF1BB14B001F1 /* SharedPreferences.swift */; };
+		1C7D5C7922B0B6CB80B2577A /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EFABC218698278EECC9C56 /* ExploreView.swift */; };
+		2001F7FBFC85C994779B6213 /* SOFA-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F160C21685DAD2ED7D84B /* SOFA-LICENSE.txt */; };
+		2C59E38190CAB152142DAA00 /* CelestialEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE16371DD633BF927B5F1A /* CelestialEngine.swift */; };
+		46D13F448D93D1C72DDBD296 /* TetherDailyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF901C92B85B4CD6CBB425ED /* TetherDailyWidget.swift */; };
+		46E73B75E2A1E9BC54B05FE0 /* TetherWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 03B56FED70A601C9903E353F /* TetherWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4B16C0E2D1277FA5D1EE9FA8 /* Ephemeris in Resources */ = {isa = PBXBuildFile; fileRef = 3C3E5F0CEF2DAE88328DD196 /* Ephemeris */; };
+		532B920FC7292DC6D67AFC91 /* CosmicGlass.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8FA72E9D1756FFE477287F7F /* CosmicGlass.metal */; };
+		53DC39633354BB045A2A1051 /* CosmicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1D090089F23855983FF04 /* CosmicCalendar.swift */; };
+		55BFE59EAC0D82A6CDA53E3E /* Ephemeris in Resources */ = {isa = PBXBuildFile; fileRef = 3C3E5F0CEF2DAE88328DD196 /* Ephemeris */; };
+		612E6566FC4D49182ACF8744 /* MethodologyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B43A79F1E613E10D59440 /* MethodologyView.swift */; };
+		6C919BD2FABF9B7EF88515C4 /* ReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DC5DAE784FCCEC4B71590 /* ReadingView.swift */; };
+		6EF726E6B7AE937F347DA58F /* TetherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636CB7A7075366364E1E29C6 /* TetherModel.swift */; };
+		6FC237A1EF97141D032CA7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D177D95460C19D4A4AEA2E4 /* Assets.xcassets */; };
+		768EC637474DF69AD6160A05 /* CosmicGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BB85D4D571702FA34CC07D /* CosmicGeometry.swift */; };
+		79D018B6B01111EF3D03051B /* OrbitalHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50CEB75C3B9002B181AA715 /* OrbitalHaptics.swift */; };
+		8CA6562EB61FC54DE062685B /* CosmicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390216C6FDF6E1BAD196733 /* CosmicScene.swift */; };
+		9287C28CC4501A7114256EA8 /* CosmicCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1D090089F23855983FF04 /* CosmicCalendar.swift */; };
+		95239EC706B38FBDF706EA46 /* HoroscopeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE55F91F32E7CD8A38611 /* HoroscopeEngine.swift */; };
+		AC71CC7D161912EBABCC899A /* TetherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64869ECA8C7396008FA83F38 /* TetherApp.swift */; };
+		ACB55624833A91CE8DDCDAA4 /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0433230E8AAF1BB14B001F1 /* SharedPreferences.swift */; };
+		AF302CF2F33B37DF21DF4102 /* CelestialEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE16371DD633BF927B5F1A /* CelestialEngine.swift */; };
+		C08B2935A214EDE2CE269C21 /* CyclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FB1061B8F13761DBC66F7 /* CyclesView.swift */; };
+		C784BE0240DCC8C46F654C48 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5610DA81360B4E573F062 /* SettingsView.swift */; };
+		C808ABBD2B5D5F3B6FB776FF /* SceneBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E847863764C2B63BBF383A6 /* SceneBuilder.swift */; };
+		C85068D5A62FD555126457F3 /* HoroscopeEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1FE55F91F32E7CD8A38611 /* HoroscopeEngine.swift */; };
+		C8B71B4565B9642D44B5ED69 /* CosmicMetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD70C2F490AB7D311A02ADD4 /* CosmicMetalView.swift */; };
+		D047493C39DFAD5E801057FE /* TetherTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02701C97DECB1115C849C8A4 /* TetherTheme.swift */; };
+		D1D2C21FDC6688E590823C0D /* AstroMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DDC679870CB7AA7BF824 /* AstroMath.swift */; };
+		DF79DA4B0AF7FBE4AE5ADE43 /* SOFA-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3D3F160C21685DAD2ED7D84B /* SOFA-LICENSE.txt */; };
+		E4A45500419FB78D6C820587 /* ProjectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6BCCA15849A34077B1F6E2 /* ProjectionTests.swift */; };
+		F4652B456E3D441736FDDDB6 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC90A4DAE0CE5C9ED2CE72AF /* ModelTests.swift */; };
+		F7F6A54BA9B80E6634929989 /* TimeTravelSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F82C7B5253D5679B1F22C74 /* TimeTravelSheet.swift */; };
+		FC3295250062FFF55988A1C1 /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F19128D1002709F227381BA /* CoreTests.swift */; };
+		FE3A0BF5298A4B93CD353A10 /* ConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AFAEBCFF80D0A5239E041F /* ConnectionView.swift */; };
+		FE9AE587A1033188C351ADD7 /* TetherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D58862CC275FEA3A770A0B /* TetherUITests.swift */; };
+		FFD2E35F587165D2D6BF839C /* AstroMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DDC679870CB7AA7BF824 /* AstroMath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63DBFD67FA1AB6F5F9305911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154414679B8355E89FB1B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C693A1C79CDAB203A19612;
+			remoteInfo = Tether;
+		};
+		75CA4AB2FC67D2008F369BC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154414679B8355E89FB1B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C693A1C79CDAB203A19612;
+			remoteInfo = Tether;
+		};
+		C069E89D075D88A2CC99465E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D154414679B8355E89FB1B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E9F07A8B9B545916DF30DB;
+			remoteInfo = TetherWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		260B1ED483949B70097AE72C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				46E73B75E2A1E9BC54B05FE0 /* TetherWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02701C97DECB1115C849C8A4 /* TetherTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherTheme.swift; sourceTree = "<group>"; };
+		02BB85D4D571702FA34CC07D /* CosmicGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicGeometry.swift; sourceTree = "<group>"; };
+		03B56FED70A601C9903E353F /* TetherWidgets.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = TetherWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		1390216C6FDF6E1BAD196733 /* CosmicScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicScene.swift; sourceTree = "<group>"; };
+		1CD5610DA81360B4E573F062 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1E847863764C2B63BBF383A6 /* SceneBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneBuilder.swift; sourceTree = "<group>"; };
+		1F6B43A79F1E613E10D59440 /* MethodologyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodologyView.swift; sourceTree = "<group>"; };
+		1F82C7B5253D5679B1F22C74 /* TimeTravelSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTravelSheet.swift; sourceTree = "<group>"; };
+		23AFAEBCFF80D0A5239E041F /* ConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionView.swift; sourceTree = "<group>"; };
+		2F2CA052180B01BD2A5B6260 /* Tether.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Tether.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C3E5F0CEF2DAE88328DD196 /* Ephemeris */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Ephemeris; path = Shared/Resources/Ephemeris; sourceTree = SOURCE_ROOT; };
+		3D177D95460C19D4A4AEA2E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3F160C21685DAD2ED7D84B /* SOFA-LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "SOFA-LICENSE.txt"; sourceTree = "<group>"; };
+		3E6BCCA15849A34077B1F6E2 /* ProjectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectionTests.swift; sourceTree = "<group>"; };
+		492C2E0FD15E1FD27CFD3B60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57EFABC218698278EECC9C56 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		636CB7A7075366364E1E29C6 /* TetherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherModel.swift; sourceTree = "<group>"; };
+		64869ECA8C7396008FA83F38 /* TetherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherApp.swift; sourceTree = "<group>"; };
+		6AB1D090089F23855983FF04 /* CosmicCalendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicCalendar.swift; sourceTree = "<group>"; };
+		6E27F1983548A4D90A6B4F1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		721E72C75E88643F5DF7F688 /* TetherTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		738209C8375CA2B5B18C921E /* TetherWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TetherWidgets.entitlements; sourceTree = "<group>"; };
+		74AE16371DD633BF927B5F1A /* CelestialEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelestialEngine.swift; sourceTree = "<group>"; };
+		77D58862CC275FEA3A770A0B /* TetherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherUITests.swift; sourceTree = "<group>"; };
+		7E6DC5DAE784FCCEC4B71590 /* ReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingView.swift; sourceTree = "<group>"; };
+		7F19128D1002709F227381BA /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		80B77CD8F1A8DCB081E33EC1 /* Tether.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tether.entitlements; sourceTree = "<group>"; };
+		8F03D568A09D680B362F7F58 /* TetherUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = TetherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA72E9D1756FFE477287F7F /* CosmicGlass.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CosmicGlass.metal; sourceTree = "<group>"; };
+		A50CEB75C3B9002B181AA715 /* OrbitalHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrbitalHaptics.swift; sourceTree = "<group>"; };
+		AD1FE55F91F32E7CD8A38611 /* HoroscopeEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoroscopeEngine.swift; sourceTree = "<group>"; };
+		AF901C92B85B4CD6CBB425ED /* TetherDailyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetherDailyWidget.swift; sourceTree = "<group>"; };
+		BC90A4DAE0CE5C9ED2CE72AF /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		CD70C2F490AB7D311A02ADD4 /* CosmicMetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmicMetalView.swift; sourceTree = "<group>"; };
+		D7E8DDC679870CB7AA7BF824 /* AstroMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstroMath.swift; sourceTree = "<group>"; };
+		E0433230E8AAF1BB14B001F1 /* SharedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedPreferences.swift; sourceTree = "<group>"; };
+		E91FB1061B8F13761DBC66F7 /* CyclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2D89F588FC699EDD6E33403A = {
+			isa = PBXGroup;
+			children = (
+				C4882CB2C0D57688525D005A /* Shared */,
+				C964E9E1B324094D0B2DB4B1 /* Tether */,
+				5F193DFA13F04BEE492F6FE2 /* TetherTests */,
+				D24CC09BB6949D57763A8FF8 /* TetherUITests */,
+				EE6D82FCA7FF838BE9C32BFE /* TetherWidgets */,
+				B69029C48B0586990A516091 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D79556429ACA5B373CB019C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				23AFAEBCFF80D0A5239E041F /* ConnectionView.swift */,
+				E91FB1061B8F13761DBC66F7 /* CyclesView.swift */,
+				57EFABC218698278EECC9C56 /* ExploreView.swift */,
+				1F6B43A79F1E613E10D59440 /* MethodologyView.swift */,
+				7E6DC5DAE784FCCEC4B71590 /* ReadingView.swift */,
+				1CD5610DA81360B4E573F062 /* SettingsView.swift */,
+				02701C97DECB1115C849C8A4 /* TetherTheme.swift */,
+				1F82C7B5253D5679B1F22C74 /* TimeTravelSheet.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5792159394A1D2C808EAA884 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C3E5F0CEF2DAE88328DD196 /* Ephemeris */,
+				3D3F160C21685DAD2ED7D84B /* SOFA-LICENSE.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F193DFA13F04BEE492F6FE2 /* TetherTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F19128D1002709F227381BA /* CoreTests.swift */,
+				BC90A4DAE0CE5C9ED2CE72AF /* ModelTests.swift */,
+				3E6BCCA15849A34077B1F6E2 /* ProjectionTests.swift */,
+			);
+			path = TetherTests;
+			sourceTree = "<group>";
+		};
+		84152FA1CB1B92F285E0B045 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A50CEB75C3B9002B181AA715 /* OrbitalHaptics.swift */,
+				1E847863764C2B63BBF383A6 /* SceneBuilder.swift */,
+				636CB7A7075366364E1E29C6 /* TetherModel.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9AADED4E3B8823A299E6D4F2 /* Rendering */ = {
+			isa = PBXGroup;
+			children = (
+				02BB85D4D571702FA34CC07D /* CosmicGeometry.swift */,
+				8FA72E9D1756FFE477287F7F /* CosmicGlass.metal */,
+				CD70C2F490AB7D311A02ADD4 /* CosmicMetalView.swift */,
+				1390216C6FDF6E1BAD196733 /* CosmicScene.swift */,
+			);
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		A3F938A0DD8D0DF696305758 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8DDC679870CB7AA7BF824 /* AstroMath.swift */,
+				74AE16371DD633BF927B5F1A /* CelestialEngine.swift */,
+				6AB1D090089F23855983FF04 /* CosmicCalendar.swift */,
+				AD1FE55F91F32E7CD8A38611 /* HoroscopeEngine.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B69029C48B0586990A516091 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F2CA052180B01BD2A5B6260 /* Tether.app */,
+				721E72C75E88643F5DF7F688 /* TetherTests.xctest */,
+				8F03D568A09D680B362F7F58 /* TetherUITests.xctest */,
+				03B56FED70A601C9903E353F /* TetherWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4882CB2C0D57688525D005A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E0433230E8AAF1BB14B001F1 /* SharedPreferences.swift */,
+				A3F938A0DD8D0DF696305758 /* Core */,
+				5792159394A1D2C808EAA884 /* Resources */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C964E9E1B324094D0B2DB4B1 /* Tether */ = {
+			isa = PBXGroup;
+			children = (
+				3D177D95460C19D4A4AEA2E4 /* Assets.xcassets */,
+				6E27F1983548A4D90A6B4F1A /* Info.plist */,
+				80B77CD8F1A8DCB081E33EC1 /* Tether.entitlements */,
+				64869ECA8C7396008FA83F38 /* TetherApp.swift */,
+				9AADED4E3B8823A299E6D4F2 /* Rendering */,
+				84152FA1CB1B92F285E0B045 /* Services */,
+				4D79556429ACA5B373CB019C /* UI */,
+			);
+			path = Tether;
+			sourceTree = "<group>";
+		};
+		D24CC09BB6949D57763A8FF8 /* TetherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77D58862CC275FEA3A770A0B /* TetherUITests.swift */,
+			);
+			path = TetherUITests;
+			sourceTree = "<group>";
+		};
+		EE6D82FCA7FF838BE9C32BFE /* TetherWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				492C2E0FD15E1FD27CFD3B60 /* Info.plist */,
+				AF901C92B85B4CD6CBB425ED /* TetherDailyWidget.swift */,
+				738209C8375CA2B5B18C921E /* TetherWidgets.entitlements */,
+			);
+			path = TetherWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E9F07A8B9B545916DF30DB /* TetherWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77AB9A924C2F1C8FCFA18F8 /* Build configuration list for PBXNativeTarget "TetherWidgets" */;
+			buildPhases = (
+				330842473E721D01048F3206 /* Sources */,
+				BBC15A0735984D682678805D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetherWidgets;
+			packageProductDependencies = (
+			);
+			productName = TetherWidgets;
+			productReference = 03B56FED70A601C9903E353F /* TetherWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		45C693A1C79CDAB203A19612 /* Tether */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A637A0E4EA6503338E34F81 /* Build configuration list for PBXNativeTarget "Tether" */;
+			buildPhases = (
+				84364C43EE0F731B4D60D042 /* Sources */,
+				2E9501BBFD70CAADDF153614 /* Resources */,
+				260B1ED483949B70097AE72C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03B0F4DD4AE8A0EDBA8BCFEC /* PBXTargetDependency */,
+			);
+			name = Tether;
+			packageProductDependencies = (
+			);
+			productName = Tether;
+			productReference = 2F2CA052180B01BD2A5B6260 /* Tether.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4F45079B2C38E1290AE2E14 /* TetherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB8C40B019318518B19A374 /* Build configuration list for PBXNativeTarget "TetherUITests" */;
+			buildPhases = (
+				0694B805F2B224C25BBAB56D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9430F3224AB2DBF7A6CA56E2 /* PBXTargetDependency */,
+			);
+			name = TetherUITests;
+			packageProductDependencies = (
+			);
+			productName = TetherUITests;
+			productReference = 8F03D568A09D680B362F7F58 /* TetherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F36A2E7FE8A9AC1443A276D4 /* TetherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B16D91AE08F4A0CE424C434 /* Build configuration list for PBXNativeTarget "TetherTests" */;
+			buildPhases = (
+				039A6694A7BF0D902F1C2F43 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DDFD27BD184EF3E4194D11 /* PBXTargetDependency */,
+			);
+			name = TetherTests;
+			packageProductDependencies = (
+			);
+			productName = TetherTests;
+			productReference = 721E72C75E88643F5DF7F688 /* TetherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D154414679B8355E89FB1B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					14E9F07A8B9B545916DF30DB = {
+
+						ProvisioningStyle = Automatic;
+					};
+					45C693A1C79CDAB203A19612 = {
+
+						ProvisioningStyle = Automatic;
+					};
+					E4F45079B2C38E1290AE2E14 = {
+
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45C693A1C79CDAB203A19612;
+					};
+					F36A2E7FE8A9AC1443A276D4 = {
+
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 017D4C49749D6CD76AC06D39 /* Build configuration list for PBXProject "Tether" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2D89F588FC699EDD6E33403A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B69029C48B0586990A516091 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C693A1C79CDAB203A19612 /* Tether */,
+				14E9F07A8B9B545916DF30DB /* TetherWidgets */,
+				F36A2E7FE8A9AC1443A276D4 /* TetherTests */,
+				E4F45079B2C38E1290AE2E14 /* TetherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E9501BBFD70CAADDF153614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC237A1EF97141D032CA7C6 /* Assets.xcassets in Resources */,
+				55BFE59EAC0D82A6CDA53E3E /* Ephemeris in Resources */,
+				DF79DA4B0AF7FBE4AE5ADE43 /* SOFA-LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBC15A0735984D682678805D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B16C0E2D1277FA5D1EE9FA8 /* Ephemeris in Resources */,
+				2001F7FBFC85C994779B6213 /* SOFA-LICENSE.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		039A6694A7BF0D902F1C2F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3295250062FFF55988A1C1 /* CoreTests.swift in Sources */,
+				F4652B456E3D441736FDDDB6 /* ModelTests.swift in Sources */,
+				E4A45500419FB78D6C820587 /* ProjectionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0694B805F2B224C25BBAB56D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE9AE587A1033188C351ADD7 /* TetherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330842473E721D01048F3206 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD2E35F587165D2D6BF839C /* AstroMath.swift in Sources */,
+				2C59E38190CAB152142DAA00 /* CelestialEngine.swift in Sources */,
+				53DC39633354BB045A2A1051 /* CosmicCalendar.swift in Sources */,
+				C85068D5A62FD555126457F3 /* HoroscopeEngine.swift in Sources */,
+				0238B6AA6873A56CEFD7379A /* SharedPreferences.swift in Sources */,
+				46D13F448D93D1C72DDBD296 /* TetherDailyWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84364C43EE0F731B4D60D042 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D2C21FDC6688E590823C0D /* AstroMath.swift in Sources */,
+				AF302CF2F33B37DF21DF4102 /* CelestialEngine.swift in Sources */,
+				FE3A0BF5298A4B93CD353A10 /* ConnectionView.swift in Sources */,
+				9287C28CC4501A7114256EA8 /* CosmicCalendar.swift in Sources */,
+				768EC637474DF69AD6160A05 /* CosmicGeometry.swift in Sources */,
+				532B920FC7292DC6D67AFC91 /* CosmicGlass.metal in Sources */,
+				C8B71B4565B9642D44B5ED69 /* CosmicMetalView.swift in Sources */,
+				8CA6562EB61FC54DE062685B /* CosmicScene.swift in Sources */,
+				C08B2935A214EDE2CE269C21 /* CyclesView.swift in Sources */,
+				1C7D5C7922B0B6CB80B2577A /* ExploreView.swift in Sources */,
+				95239EC706B38FBDF706EA46 /* HoroscopeEngine.swift in Sources */,
+				612E6566FC4D49182ACF8744 /* MethodologyView.swift in Sources */,
+				79D018B6B01111EF3D03051B /* OrbitalHaptics.swift in Sources */,
+				6C919BD2FABF9B7EF88515C4 /* ReadingView.swift in Sources */,
+				C808ABBD2B5D5F3B6FB776FF /* SceneBuilder.swift in Sources */,
+				C784BE0240DCC8C46F654C48 /* SettingsView.swift in Sources */,
+				ACB55624833A91CE8DDCDAA4 /* SharedPreferences.swift in Sources */,
+				AC71CC7D161912EBABCC899A /* TetherApp.swift in Sources */,
+				6EF726E6B7AE937F347DA58F /* TetherModel.swift in Sources */,
+				D047493C39DFAD5E801057FE /* TetherTheme.swift in Sources */,
+				F7F6A54BA9B80E6634929989 /* TimeTravelSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03B0F4DD4AE8A0EDBA8BCFEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E9F07A8B9B545916DF30DB /* TetherWidgets */;
+			targetProxy = C069E89D075D88A2CC99465E /* PBXContainerItemProxy */;
+		};
+		79DDFD27BD184EF3E4194D11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C693A1C79CDAB203A19612 /* Tether */;
+			targetProxy = 75CA4AB2FC67D2008F369BC5 /* PBXContainerItemProxy */;
+		};
+		9430F3224AB2DBF7A6CA56E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45C693A1C79CDAB203A19612 /* Tether */;
+			targetProxy = 63DBFD67FA1AB6F5F9305911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		158B7230060205C7337A6242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.TetherUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tether;
+			};
+			name = Release;
+		};
+		261BA575DA21D2DF162E6990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.TetherTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tether.app/Tether";
+			};
+			name = Debug;
+		};
+		436F9F17F3459D7343957521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tether/Tether.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.tether;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9966A5F265CCC45C2E9F5556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TetherWidgets/TetherWidgets.entitlements;
+				INFOPLIST_FILE = TetherWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.tether.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4E4DABBE84A839124A51ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.TetherUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tether;
+			};
+			name = Debug;
+		};
+		B5AB5F12AB05FC97E8EAB023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = TetherWidgets/TetherWidgets.entitlements;
+				INFOPLIST_FILE = TetherWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.tether.widgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D2784D8591C2AF5B0DF6929F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tether/Tether.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Tether/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.tether;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1FE9267F36E54A4080B91CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		EB087D9D5C4201A47C3DBE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		F94AFBBFC3595A99B4FFFBE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.utkarsh.TetherTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tether.app/Tether";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		017D4C49749D6CD76AC06D39 /* Build configuration list for PBXProject "Tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FE9267F36E54A4080B91CD /* Debug */,
+				EB087D9D5C4201A47C3DBE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6B16D91AE08F4A0CE424C434 /* Build configuration list for PBXNativeTarget "TetherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				261BA575DA21D2DF162E6990 /* Debug */,
+				F94AFBBFC3595A99B4FFFBE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BB8C40B019318518B19A374 /* Build configuration list for PBXNativeTarget "TetherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4E4DABBE84A839124A51ABB /* Debug */,
+				158B7230060205C7337A6242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A637A0E4EA6503338E34F81 /* Build configuration list for PBXNativeTarget "Tether" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2784D8591C2AF5B0DF6929F /* Debug */,
+				436F9F17F3459D7343957521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D77AB9A924C2F1C8FCFA18F8 /* Build configuration list for PBXNativeTarget "TetherWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AB5F12AB05FC97E8EAB023 /* Debug */,
+				9966A5F265CCC45C2E9F5556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D154414679B8355E89FB1B6A /* Project object */;
+}

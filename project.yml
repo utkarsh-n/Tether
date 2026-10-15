@@ -1,0 +1,108 @@
+name: Tether
+options:
+  bundleIdPrefix: com.utkarsh
+  deploymentTarget:
+    iOS: "27.0"
+  xcodeVersion: "27.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    SWIFT_STRICT_CONCURRENCY: complete
+targets:
+  Tether:
+    type: application
+    platform: iOS
+    sources:
+      - Tether
+      - Shared/Core
+      - Shared/SharedPreferences.swift
+      - path: Shared/Resources/Ephemeris
+        type: folder
+        buildPhase: resources
+      - path: Shared/Resources/SOFA-LICENSE.txt
+        buildPhase: resources
+    dependencies:
+      - target: TetherWidgets
+    entitlements:
+      path: Tether/Tether.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.utkarsh.tether]
+    info:
+      path: Tether/Info.plist
+      properties:
+        CFBundleDisplayName: Tether
+        UILaunchScreen: {}
+        UIUserInterfaceStyle: Dark
+        ITSAppUsesNonExemptEncryption: false
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        CFBundleURLTypes:
+          - CFBundleURLName: com.utkarsh.tether
+            CFBundleURLSchemes: [tether]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.tether
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        SUPPORTS_MACCATALYST: NO
+  TetherWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - TetherWidgets
+      - Shared/Core
+      - Shared/SharedPreferences.swift
+      - path: Shared/Resources/Ephemeris
+        type: folder
+        buildPhase: resources
+      - path: Shared/Resources/SOFA-LICENSE.txt
+        buildPhase: resources
+    entitlements:
+      path: TetherWidgets/TetherWidgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.com.utkarsh.tether]
+    info:
+      path: TetherWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: Tether daily reading
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.utkarsh.tether.widgets
+        TARGETED_DEVICE_FAMILY: "1,2"
+        APPLICATION_EXTENSION_API_ONLY: YES
+        SKIP_INSTALL: YES
+  TetherTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [TetherTests]
+    dependencies: [{target: Tether}]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+  TetherUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [TetherUITests]
+    dependencies: [{target: Tether}]
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  Tether:
+    build:
+      targets:
+        Tether: all
+        TetherTests: [test]
+        TetherUITests: [test]
+    test:
+      targets: [TetherTests, TetherUITests]
